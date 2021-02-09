@@ -13,5 +13,5 @@ RnwWeave: Sweave
 LaTeX: pdfLaTeX
 
 PythonType: conda
-PythonVersion: 3.7.8
-PythonPath: ~/opt/anaconda3/envs/openreview/bin/python
+PythonVersion: 3.9.1
+PythonPath: ~/opt/anaconda3/envs/bioc2021/bin/python
