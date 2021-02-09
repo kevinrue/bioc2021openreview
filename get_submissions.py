@@ -10,4 +10,3 @@ notes = c.get_notes(invitation=config.conference + "/-/Submission")
 
 print(len(notes))
 print(notes[0])
-

@@ -1,4 +1,11 @@
 ###
+# Project specific
+###
+
+# Default folder for script outputs
+_out
+
+###
 # Visual Studio Code
 ###
 
