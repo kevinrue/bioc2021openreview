@@ -4,6 +4,7 @@
 
 # Default folder for script outputs
 _out
+.DS_Store
 
 ###
 # Visual Studio Code
