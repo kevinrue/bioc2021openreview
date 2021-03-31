@@ -26,9 +26,9 @@ affiliation = [note.content["affiliation"] for note in notes]
 
 contact_email = [note.content["contact_email"] for note in notes]
 
-gender = [note.content["gender"] for note in notes]
+#gender = [note.content["gender"] for note in notes]
 
-bioconductor_package_maintenance = [note.content["bioconductor_package_maintenance"] for note in notes]
+#bioconductor_package_maintenance = [note.content["bioconductor_package_maintenance"] for note in notes]
 
 associated_packages = [note.content["associated_packages"] for note in notes]
 
@@ -52,8 +52,8 @@ submissions_table = pandas.DataFrame(data = {
     "abstract": abstract,
     "affiliation": affiliation,
     "contact_email": contact_email,
-    "gender": gender,
-    "bioconductor_package_maintenance": bioconductor_package_maintenance,
+    #"gender": gender,
+    #"bioconductor_package_maintenance": bioconductor_package_maintenance,
     "associated_packages": associated_packages,
     "short_talk": short_talk,
     "package_demo": package_demo,
