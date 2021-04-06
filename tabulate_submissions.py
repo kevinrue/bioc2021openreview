@@ -14,6 +14,8 @@ notes = c.get_notes(invitation=config.conference + "/-/Submission")
 
 title = [note.content["title"] for note in notes]
 
+number = ["Paper" + str(note.number) for note in notes]
+
 authorids = [",".join(note.content["authorids"]) for note in notes]
 
 authors = [",".join(note.content["authors"]) for note in notes]
@@ -45,6 +47,7 @@ code_of_conduct = [note.content["code_of_conduct"] for note in notes]
 paperhash = [note.content["paperhash"] for note in notes]
 
 submissions_table = pandas.DataFrame(data = {
+    "number": number,
     "title": title,
     "authorids": authorids,
     "authors": authors,
